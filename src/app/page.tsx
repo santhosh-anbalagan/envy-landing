@@ -3,14 +3,22 @@ import { Footer, Navbar } from "@/components";
 
 // sections
 import Hero from "./hero";
-import Feature from "./feature";
+import VideoIntro from "./video-intro";
+import HowItWorks from "./howitworks";
+import Expectations from "./expectations";
+import Why from "./why";
+import When from "./when";
 
 export default function Campaign() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Feature />
+      <VideoIntro />
+      <HowItWorks/>
+      <Why/>
+      <Expectations/>
+      <When/>
       <Footer />
     </>
   );

@@ -1,4 +1,5 @@
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 import {
   IconButton,
   Navbar as MTNavbar,
@@ -63,14 +64,14 @@ export function Navbar() {
       color={isScrolling ? "white" : "transparent"}
       className="fixed top-0 z-50 border-0" placeholder={undefined}    >
       <div className="container mx-auto flex items-center justify-between">
-        <Typography
-          as="a"
-          href="https://www.material-tailwind.com"
-          target="_blank"
-          variant="h6"
-          color={isScrolling ? "gray" : "white"} placeholder={undefined}        >
-          Envy
-        </Typography>
+
+        <Image
+          width={100}
+          height={100}
+          src={isScrolling ? '/logos/envy-ico-green.svg' : '/logos/envy-ico-white.svg'}
+          alt="team work"
+          className="float-left "
+        />
         <IconButton
           variant="text"
           color={isScrolling ? "gray" : "white"}
