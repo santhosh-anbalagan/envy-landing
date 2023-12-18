@@ -17,16 +17,15 @@ export function Footer() {
               target="_blank"
               variant="h2"
               color="white"
-              className="mb-4 text-7xl"
-            >
+              className="mb-4 text-7xl" placeholder={undefined}            >
               ENVY
             </Typography>
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
-            <Typography variant="h6" color="white" className="mb-3">
+            <Typography variant="h6" color="white" className="mb-3" placeholder={undefined} >
               PRIVACY POLICY
             </Typography>
-            <Typography variant="h6" color="white" className="mb-3">
+            <Typography variant="h6" color="white" className="mb-3" placeholder={undefined} >
               TERMS & CONDITIONS
             </Typography>
           </div>
@@ -34,7 +33,7 @@ export function Footer() {
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
           <Typography
             color="white"
-            className="text-center font-normal opacity-75"
+            className="text-center font-normal opacity-75" placeholder={undefined} 
           >
             &copy; {CURRENT_YEAR} Made with{" "}
             <a href="https://www.material-tailwind.com" target="_blank">

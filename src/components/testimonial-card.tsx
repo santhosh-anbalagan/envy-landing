@@ -15,18 +15,18 @@ export function TestimonialCard({
   title,
 }: TestimonialCardProps) {
   return (
-    <Card shadow={false} className="items-center text-center">
-      <CardBody>
-        <Avatar src={img} className="mb-3" alt={client} size="lg" />
-        <Typography variant="h6" color="blue-gray">
+    <Card shadow={false} className="items-center text-center" placeholder={undefined}>
+      <CardBody placeholder={undefined}>
+        <Avatar src={img} className="mb-3" alt={client} size="lg"  placeholder={undefined}/>
+        <Typography variant="h6" color="blue-gray" placeholder={undefined}>
           {client}
         </Typography>
-        <Typography variant="small" className="mb-3 font-medium !text-gray-700">
+        <Typography variant="small" className="mb-3 font-medium !text-gray-700" placeholder={undefined}>
           {title}
         </Typography>
         <Typography
           variant="paragraph"
-          className="mb-5 font-normal !text-gray-500"
+          className="mb-5 font-normal !text-gray-500" placeholder={undefined}
         >
           &quot;{feedback}&quot;
         </Typography>
