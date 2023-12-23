@@ -9,10 +9,10 @@ export function VideoIntro() {
     <section className="py-5 px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-          <Typography variant="h1" className="mb-4" placeholder="" style={{ color: '#063233' }}>
+          <Typography variant="h1" className="mb-4 font-graduate" placeholder="" style={{ color: '#063233' }}>
             UNVEILING
           </Typography>
-          <Typography variant="h1" className="mb-4" placeholder="" style={{ color: '#063233' }}>
+          <Typography variant="h1" className="mb-4 font-graduate" placeholder="" style={{ color: '#063233' }}>
             ENVY
           </Typography>
           <Typography placeholder=""

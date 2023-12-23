@@ -6,22 +6,34 @@ import Image from "next/image";
 
 function Why() {
     return (
-        <section className="grid !min-h-[55rem] px-8">
+        <section className="grid !min-h-[55rem] px-8 bg-envy-green">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
-                <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-                    <Typography variant="h2" className="mb-4" placeholder="">
-                        Why
+                <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0 text-envy-green">
+                    <Typography variant="h2" className="mb-4 font-graduate text-white" placeholder="">
+                        WHY TRY IT
                     </Typography>
                     <Typography placeholder=""
                         variant="lead"
-                        className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
-                        color="black"
+                        className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0 font-caveat"
                     >
-                        <span>Countless people navigate  distict lifestyles,<br />
-                            Have you ever imagined the excitement of <br />
-                            defining into those unique worlds? Our app <br />
-                            offers you the chance to step into the shoes of <br />
-                            a lifestyle you`ve always envied. <br />
+                        <span>Explore: Dive into the distinct realms of culture,<br />
+                            location, and vocation, experiencing their unique<br />
+                            facets.<br />
+                        </span>
+                        <br />
+                        <span>Elevaing the Experience: Inroducing a<br />
+                            Dynamic Point System for Added Excittment<br />
+                        </span>
+                        <br /> 
+                        <span>It's Safe: Only Verified profiles, authenic<br />
+                            individuals sharing genuine day-to-day routines.<br />
+                        </span>
+                        <br /> 
+                        <span>Benefits: Earn money as a host.<br />
+                        </span>
+                        <br /> 
+                        <span>Timeline: Miniimum 24 hours. It transcends a<br />
+                            mere activity.<br />
                         </span>
                     </Typography>
 

@@ -8,7 +8,13 @@ const config: Config = withMT({
   ],
   theme: {
     fontFamily: {
-      'graduate':['Graduate']
+      'graduate':['Graduate'],
+      'caveat':['Caveat']
+    },
+    extend: {
+      colors: {
+        'envy-green': '#063233',
+      },
     }
   },
   plugins: [],

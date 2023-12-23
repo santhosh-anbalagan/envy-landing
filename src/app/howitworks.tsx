@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function HowItWorks() {
     return (
-        <section className="grid !min-h-[55rem] px-8" style={{ backgroundColor: "#063233" }}>
+        <section className="grid !min-h-[55rem] px-8 bg-envy-green">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
                 <div className="p-8">
                     <div className="w-full container px-5 overflow-hidden rounded-xl relative mx-auto mt-20 max-w-6xl ">
@@ -21,19 +21,20 @@ function HowItWorks() {
                     </div>
                 </div>
                 <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-                    <Typography variant="h2" className="mb-4" placeholder="">
-                        How It Works
+                    <Typography variant="h2" className="mb-4 font-graduate text-white" placeholder="">
+                        HOW IT WORKS
                     </Typography>
                     <Typography placeholder=""
                         variant="lead"
-                        className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
+                        className="mb-5 px-4 text-left text-xl !text-gray-500 lg:px-0 font-caveat"
                         color="black"
                     >
-                        <span>Countless people navigate  distict lifestyles,<br />
-                            Have you ever imagined the excitement of <br />
-                            defining into those unique worlds? Our app <br />
-                            offers you the chance to step into the shoes of <br />
-                            a lifestyle you`ve always envied. <br />
+                        <span>Envy is a unique experience-sharing app<br />
+                            where individuals auhentically showcase<br />
+                            their daily lifestyles. If curiosity beckons,<br />
+                            slide to request your host and choose your<br />
+                            dates to immerse yourself in the<br />
+                            experience!
                         </span>
                     </Typography>
 

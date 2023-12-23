@@ -16,8 +16,8 @@ export default function Campaign() {
       <Hero />
       <VideoIntro />
       <HowItWorks/>
-      <Why/>
       <Expectations/>
+      <Why/>
       <When/>
       <Footer />
     </>
