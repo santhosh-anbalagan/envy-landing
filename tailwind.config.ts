@@ -13,7 +13,7 @@ const config: Config = withMT({
     },
     extend: {
       colors: {
-        'envy-green': '#063233',
+        'envy-green': '#063233'
       },
     }
   },
