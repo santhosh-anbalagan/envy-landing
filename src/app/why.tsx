@@ -14,7 +14,7 @@ function Why() {
                     </Typography>
                     <Typography placeholder=""
                         variant="lead"
-                        className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0 font-caveat"
+                        className="mb-5 px-4 text-left text-xl !text-gray-500 lg:px-0 font-caveat"
                     >
                         <span>Explore: Dive into the distinct realms of culture,<br />
                             location, and vocation, experiencing their unique<br />
@@ -25,7 +25,7 @@ function Why() {
                             Dynamic Point System for Added Excittment<br />
                         </span>
                         <br /> 
-                        <span>It's Safe: Only Verified profiles, authenic<br />
+                        <span>It&apos;s Safe: Only Verified profiles, authenic<br />
                             individuals sharing genuine day-to-day routines.<br />
                         </span>
                         <br /> 
