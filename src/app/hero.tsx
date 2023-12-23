@@ -11,7 +11,7 @@ function Hero() {
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography variant="h1" color="white" className="mb-4" placeholder="">
-              <div className="text-9xl">Envy<sub className="text-3xl">a lifestyle ? Try it!</sub></div>
+              <div className="text-9xl font-graduate">ENVY<sub className="text-3xl">a lifestyle ? Try it!</sub></div>
             </Typography>
             <div className="w-100 mb-7 !text-white md:pr-16 xl:pr-28">
               <Input type="email" color="white" label="Email Address" crossOrigin={undefined} />

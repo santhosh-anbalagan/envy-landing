@@ -17,6 +17,7 @@ export function VideoIntro() {
           </Typography>
           <Typography placeholder=""
             variant="lead"
+            style={{ fontFamily: "Caveat"}}
             className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
             color="black"
           >
