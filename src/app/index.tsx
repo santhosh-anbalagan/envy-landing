@@ -7,5 +7,6 @@ export * from './howitworks'
 export * from './expectations'
 export * from './why'
 export * from './when'
+export * from './terms/terms'
 
 
