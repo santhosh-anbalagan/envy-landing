@@ -1,25 +1,24 @@
 // components
-import { Footer, Navbar } from "@/components";
 
 // sections
-import Hero from "./hero";
-import VideoIntro from "./video-intro";
-import HowItWorks from "./howitworks";
 import Expectations from "./expectations";
-import Why from "./why";
+import Hero from "./hero";
+import HowItWorks from "./howitworks";
+import VideoIntro from "./video-intro";
 import When from "./when";
+import Why from "./why";
 
 export default function Campaign() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <VideoIntro />
       <HowItWorks/>
       <Expectations/>
       <Why/>
       <When/>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

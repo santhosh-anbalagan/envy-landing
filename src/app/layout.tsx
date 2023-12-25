@@ -1,7 +1,7 @@
-import "./globals.css";
+import { Footer, Layout, Navbar } from "@/components";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import { FixedPlugin, Layout } from "@/components";
+import "./globals.css";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -31,12 +31,14 @@ export default function RootLayout({
           referrerPolicy="no-referrer"
         />
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
-        <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'/>
-        <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'/>
+        <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet' />
+        <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' />
       </head>
       <body className={roboto.className}>
         <Layout>
+          <Navbar/>
           {children}
+          <Footer/>
         </Layout>
       </body>
     </html>

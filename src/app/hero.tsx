@@ -27,7 +27,7 @@ function Hero() {
                   I accept the
                   <Typography placeholder={undefined}
                     as="a"
-                    href="#"
+                    href="/terms"
                     color="blue"
                     className="font-medium transition-colors hover:text-blue-700"
                   >
