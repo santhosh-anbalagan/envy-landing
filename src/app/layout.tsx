@@ -30,7 +30,8 @@ export default function RootLayout({
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/images/tab-icon.png"/>
+        <link rel="icon" href="/images/tab-icon.png"/>
         <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet' />
         <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' />
       </head>

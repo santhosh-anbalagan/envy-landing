@@ -63,11 +63,11 @@ export function Navbar() {
       blurred={false}
       color={isScrolling ? "white" : "transparent"}
       className="fixed top-0 z-50 border-0" placeholder={undefined}    >
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-center ">
 
         <Image
-          width={100}
-          height={100}
+          width={150}
+          height={200}
           src={isScrolling ? '/logos/envy-ico-green.svg' : '/logos/envy-ico-white.svg'}
           alt="team work"
           className="float-left "
