@@ -70,7 +70,6 @@ export function Navbar() {
           height={200}
           src={isScrolling ? '/logos/envy-ico-green.svg' : '/logos/envy-ico-white.svg'}
           alt="team work"
-          className="float-left "
         />
         <IconButton
           variant="text"
