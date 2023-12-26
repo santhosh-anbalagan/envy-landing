@@ -14,7 +14,7 @@ function Why() {
                         <Image
                             width={900}
                             height={600}
-                            src="https://s3.eu-west-2.amazonaws.com/envy.public/media/img/ezgif-3-b0b3161ea6.gif"
+                            src="/image/try.gif"
                             className="w-full object-cover scale-110 rounded-xl h-full"
                             alt=""
                         />
