@@ -34,7 +34,7 @@ export function Footer() {
               Privacy
             </a>{" "}
             &sdot;{" "}
-            <a href="https://www.creative-tim.com" target="_blank">
+            <a href="/terms">
               Terms
             </a>
           </Typography>

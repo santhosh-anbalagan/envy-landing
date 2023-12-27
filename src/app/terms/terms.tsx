@@ -1,61 +1,94 @@
 "use client";
-
-import { Card, CardBody, Checkbox, Input, Typography } from "@material-tailwind/react";
-import Image from "next/image";
-
-
+import ScrollToSection from "@/components/scroll-to-section";
+import { Card, CardBody, Typography } from "@material-tailwind/react";
+import { Link } from 'react-scroll';
 function Terms() {
   return (
     <>
       <div className="relative min-h-screen w-full">
-        <header className="grid !min-h-[100rem] px-8" style={{ backgroundColor: "#063233" }}>
-          <div className="container mx-auto mt-20 h-full w-full text-white">
-            <Card placeholder="" className="mt-6 w-full pb-20">
+        <header className="grid !min-h-[100rem] px-8 bg-envy-green">
+          <div className="container mx-auto mt-20 h-full w-full ">
+            <Card placeholder="" className="mt-6 w-full pb-20 text-black">
               <CardBody placeholder="" >
-                <Typography placeholder="" variant="h1">FantasticFictionWorld Terms and Conditions</Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">1. Acceptance of Terms</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  By accessing or using the services provided by FantasticFictionWorld, you agree to be bound by the following terms and conditions. If you do not agree to these terms, please refrain from using our services.
+                <Typography placeholder="" variant="h1">Envy App - Terms and Conditions</Typography>
+                <Typography placeholder="" variant="h4" className="mt-10">Table of Contents</Typography>
+                <span>
+                  <ol className="list-decimal">
+                    <li>
+                      <ScrollToSection to="1">Acceptance of terms</ScrollToSection>
+                    </li>
+                    <li>
+                      <ScrollToSection to="2">User Accounts</ScrollToSection>
+                    </li>
+                    <li>
+                      <ScrollToSection to="3">User Content</ScrollToSection>
+                    </li>
+                    <li>
+                      <ScrollToSection to="4">Prohibited Conduct</ScrollToSection>
+                    </li>
+                    <li>
+                      <ScrollToSection to="5">Intellectual Property</ScrollToSection>
+                    </li>
+                    <li>
+                      <ScrollToSection to="6">Termination</ScrollToSection>
+                    </li>
+                    <li>
+                      <ScrollToSection to="7">Limitation of Liability</ScrollToSection>
+                    </li>
+                    <li>
+                      <ScrollToSection to="8">Governing Law</ScrollToSection>
+                    </li>
+                    <li>
+                      <ScrollToSection to="9">Contact Information</ScrollToSection>
+                    </li>
+                  </ol>
+                </span>
+
+                <Typography placeholder="" variant="h3" className="mt-5"> <Link to="1" smooth={true} offset={-70} duration={500}>1. Acceptance of Terms</Link></Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  1.1 By accessing or using the Envy mobile application (`App`), you agree to comply with and be bound by these Terms and Conditions (`Terms`). If you do not agree to these Terms, please do not use the App.</Typography>
+                <Typography placeholder="" variant="h3" className="mt-5"><Link to="2" smooth={true} offset={-70} duration={500}>2. User Accounts</Link></Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  2.1 To use certain features of the App, you may be required to create a user account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.</Typography>
+                <Typography placeholder="" className="mt-2" variant="paragraph">
+                  2.2 You are responsible for maintaining the confidentiality of your account login information and are fully responsible for all activities that occur under your account. Notify us immediately of any unauthorized use or security breach.</Typography>
+                <Typography placeholder="" variant="h3" className="mt-5">3. User Content</Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  3.1 The App allows users to create accounts and upload content. By submitting content, you grant Senggers Ltd a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the content in connection with the App.</Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  3.2 You are solely responsible for the content you submit, and you represent and warrant that you have all necessary rights to submit the content and that the content does not violate any third-party rights or applicable laws.</Typography>
+
+                <Typography placeholder="" variant="h3" className="mt-5">4. Prohibited Conduct</Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  4.1 You agree not to:
+                  {/* <span>
+                <ul className={"list-disc list-inside"}>
+                  <li>Use the App for any illegal purpose or in violation of any laws</li>
+                  <li>Upload, post, or transmit any content that infringes upon any third-party rights</li>
+                  <li>Engage in any conduct that could disable, overburden, or impair the proper functioning of the App.</li>
+                </ul>
+                </span> */}
+                  <br />
+                  *&nbsp;Use the App for any illegal purpose or in violation of any laws.<br />
+                  *&nbsp;Upload, post, or transmit any content that infringes upon any third-party rights.<br />
+                  *&nbsp;Engage in any conduct that could disable, overburden, or impair the proper functioning of the App.<br />
                 </Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">2. FantasticFictionWorld Services</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  FantasticFictionWorld offers a variety of fantastical services, including but not limited to magical story generation, whimsical plot twists, and enchanted character development.</Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">3. User Obligations</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  a. You must be at least 18 years old or possess the legal age to enter into binding contracts in your jurisdiction to use FantasticFictionWorld services.
-                  <br />
-                  b. You agree not to use our services for any unlawful or prohibited activities, including but not limited to the summoning of mythical creatures without proper permits.
-                </Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">4. Magical Subscription Plans</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  FantasticFictionWorld offers subscription plans that grant users access to premium magical content. Subscription fees may be paid in gold coins, fairy dust, or other accepted mystical currencies.
-                </Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">5. Spellbinding Content</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  a. FantasticFictionWorld retains the exclusive rights to all magically generated content. Users may not claim authorship of any stories, spells, or potions produced by our services.
-                  <br />
-                  b. Users are encouraged to share their enchanted creations on social media with proper attribution to FantasticFictionWorld.</Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">6. Limitation of Liability</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  FantasticFictionWorld shall not be held responsible for any unforeseen consequences, including but not limited to accidental teleportations, time travel, or encounters with mythical beings, resulting from the use of our services.</Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">7. Warranties and Guarantees</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  a. FantasticFictionWorld does not guarantee the accuracy, reliability, or effectiveness of any magical spells, charms, or prophecies provided through our services.
-                  <br />
-                  b. Users understand that the mystical nature of our services may lead to unexpected outcomes, and FantasticFictionWorld cannot be held liable for any unintended consequences.</Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">8. Termination of Services</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  FantasticFictionWorld reserves the right to suspend or terminate services at any time for reasons including, but not limited to, misuse of magical content, violation of these terms, or cosmic disturbances beyond our control.</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  a. FantasticFictionWorld does not guarantee the accuracy, reliability, or effectiveness of any magical spells, charms, or prophecies provided through our services.
-                  <br />
-                  b. Users understand that the mystical nature of our services may lead to unexpected outcomes, and FantasticFictionWorld cannot be held liable for any unintended consequences.</Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">9. Governing Law</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  These terms and conditions shall be governed by the laws of the Enchanted Realm, where wizards, fairies, and dragons coexist peacefully.</Typography>
-                <Typography placeholder="" variant="h3" className="mt-10">10. Contact Information</Typography>
-                <Typography placeholder="" className="mt-10" variant="paragraph">
-                  For inquiries, magical assistance, or potion recipes, please contact our mystical customer support at support@fantasticfictionworld.com. </Typography>
+                <Typography placeholder="" variant="h3" className="mt-5">5. Intellectual Property</Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  5.1 The App and its original content, features, and functionality are owned by Senggers Ltd and are protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.</Typography>
+                <Typography placeholder="" variant="h3" className="mt-5">6. Termination</Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  6.1 Senggers Ltd may terminate or suspend your account and access to the App immediately, without prior notice or liability, for any reason whatsoever.</Typography>
+                <Typography placeholder="" variant="h3" className="mt-5">7. Limitation of Liability</Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  7.1 To the fullest extent permitted by applicable law, in no event shall Senggers Ltd be liable for any indirect, incidental, special, consequential, or punitive damages.</Typography>
+                <Typography placeholder="" variant="h3" className="mt-5">8. Governing Law</Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  8.1 These Terms are governed by and construed in accordance with the laws of the United Kingdom.</Typography>
+                <Typography placeholder="" variant="h3" className="mt-5">9. Contact Information</Typography>
+                <Typography placeholder="" className="mt-5" variant="paragraph">
+                  9.1 If you have any questions about these Terms, please contact us at <span className="text-blue-500 cursor-pointer">[contact@envyapp.com].</span> </Typography>
+
               </CardBody>
             </Card>
           </div>
