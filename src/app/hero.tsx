@@ -18,7 +18,7 @@ function Hero() {
             </div>
             {/* </Typography> */}
             <Typography className="mb-4" color="white" variant="h6" placeholder="">
-              Share your email with us to unlock a world of new experiences! Sign up now to <br /> bew among the first to be notified and become a trendsetter!
+              Share your email with us to unlock a world of new experiences! Sign up now to <br /> be among the first to be notified and become a trendsetter!
             </Typography>
 
             <Checkbox
@@ -27,7 +27,7 @@ function Hero() {
                   I accept the
                   <Typography placeholder={undefined}
                     as="a"
-                    href="#"
+                    href="/terms"
                     color="blue"
                     className="font-medium transition-colors hover:text-blue-700"
                   >
@@ -56,10 +56,10 @@ function Hero() {
           </div>
           <Image
             width={470}
-            height={576}
+            height={576}            
             src="/image/iphones.png"
             alt="team work"
-            className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
+            className="cursor-pointer col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
           />
         </div>
       </header>

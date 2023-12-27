@@ -1,13 +1,12 @@
 "use client";
-import Image from "next/image";
-import { Typography, IconButton, Button } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 
 const LINKS = ["About Us", "Careers", "Press", "Blog", "Pricing"];
 const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="mt-10  px-8 pt-12" style={{ backgroundColor: "#063233" }}>
+    <footer className="px-8 pt-12 bg-envy-green">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
 
@@ -30,7 +29,7 @@ export function Footer() {
             color="white"
             className="text-center font-normal opacity-75" placeholder={undefined} 
           >
-            <a href="https://www.material-tailwind.com" target="_blank">
+            <a href="/privacy">
               Privacy
             </a>{" "}
             &sdot;{" "}

@@ -2,14 +2,14 @@
 import ScrollToSection from "@/components/scroll-to-section";
 import { Card, CardBody, Typography } from "@material-tailwind/react";
 import { Link } from 'react-scroll';
-function Terms() {
+function Privacy() {
   return (
     <>
       <div className="relative min-h-screen w-full">
         <header className="grid !min-h-[100rem] px-8 bg-envy-green">
           <div className="container mx-auto mt-20 h-full w-full ">
             <Card placeholder="" className="mt-6 w-full pb-20 text-black">
-              <CardBody placeholder="" className="m-10">
+              <CardBody placeholder="" >
                 <Typography placeholder="" variant="h1">Envy App - Terms and Conditions</Typography>
                 <Typography placeholder="" variant="h4" className="mt-10">Table of Contents</Typography>
                 <span>
@@ -97,4 +97,4 @@ function Terms() {
     </>
   );
 }
-export default Terms;
+export default Privacy;

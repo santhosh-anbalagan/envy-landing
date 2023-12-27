@@ -6,6 +6,7 @@ import {
   Typography
 } from "@material-tailwind/react";
 import React from "react";
+import Link from "next/link";
 
 interface NavItemProps {
   children: React.ReactNode;
@@ -65,12 +66,14 @@ export function Navbar() {
       className="fixed top-0 z-50 border-0" placeholder={undefined}    >
       <div className="container mx-auto flex items-center justify-center ">
 
-        <Image
-          width={150}
-          height={200}
-          src={isScrolling ? '/logos/envy-ico-green.svg' : '/logos/envy-ico-white.svg'}
-          alt="team work"
-        />
+        <Link href="/">
+          <Image
+            width={150}
+            height={200}
+            src={isScrolling ? '/logos/envy-ico-green.svg' : '/logos/envy-ico-white.svg'}
+            alt="team work"
+          />
+        </Link>
         <IconButton
           variant="text"
           color={isScrolling ? "gray" : "white"}
