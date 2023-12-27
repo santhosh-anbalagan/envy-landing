@@ -9,7 +9,7 @@ function Why() {
         <section className="grid !min-h-[55rem] px-8 bg-envy-green">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">  
             <div className="p-8">
-                    <div className="w-full container px-5 overflow-hidden rounded-xl relative mx-auto mt-20 max-w-6xl ">
+                    <div className="w-full container px-5 overflow-hidden rounded-xl relative mx-auto my-20 max-w-6xl ">
                         <div className="bg-black/25 z-10 absolute w-full h-full inset-0 rounded-xl" />
                         <Image
                             width={900}

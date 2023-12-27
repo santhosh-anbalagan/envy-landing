@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export function VideoIntro() {
   return (
-    <section className="py-5 px-8">
+    <section className="pb-5 px-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
           <Typography
@@ -39,9 +39,9 @@ export function VideoIntro() {
             </span>
           </Typography>
         </div>
-        <div className="p-8">
-          <div className="w-full container px-5 overflow-hidden rounded-xl relative mx-auto mt-20 max-w-6xl ">
-            <video className="h-full w-full rounded-lg" controls autoPlay>
+        <div className="">
+          <div className="w-full container p-5 overflow-hidden rounded-xl relative mx-auto max-w-6xl ">
+            <video className="h-[75vh] w-full rounded-lg" controls autoPlay>
               <source
                 src="https://s3.eu-west-2.amazonaws.com/envy.public/media/video/2023-12-24_18_30_12_video.MP4"
                 type="video/mp4"
