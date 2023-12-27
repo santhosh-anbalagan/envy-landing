@@ -10,41 +10,35 @@ export function Footer() {
     <footer className="mt-10  px-8 pt-12" style={{ backgroundColor: "#063233" }}>
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
-          <div className="text-center md:text-left">
-            <Typography
-              as="a"
-              href="https://www.material-tailwind.com"
-              target="_blank"
-              variant="h2"
-              color="white"
-              className="mb-4 text-7xl" placeholder={undefined}            >
-              ENVY
-            </Typography>
-          </div>
-          <div className="mt-8 w-full md:mt-0 md:w-auto">
-            <Typography variant="h6" color="white" className="mb-3" placeholder={undefined} >
-              PRIVACY POLICY
-            </Typography>
-            <Typography variant="h6" color="white" className="mb-3" placeholder={undefined} >
-              TERMS & CONDITIONS
-            </Typography>
-          </div>
+
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
           <Typography
             color="white"
             className="text-center font-normal opacity-75" placeholder={undefined} 
           >
-            &copy; {CURRENT_YEAR} Made with{" "}
+            &copy; {CURRENT_YEAR} Made by{" "}
             <a href="https://www.material-tailwind.com" target="_blank">
-              Envy Team
+              Team Envy
             </a>{" "}
             {/* by{" "}
             <a href="https://www.creative-tim.com" target="_blank">
               Creative Tim
             </a> */}
-            .
           </Typography>
+          <Typography
+            color="white"
+            className="text-center font-normal opacity-75" placeholder={undefined} 
+          >
+            <a href="https://www.material-tailwind.com" target="_blank">
+              Privacy
+            </a>{" "}
+            &sdot;{" "}
+            <a href="https://www.creative-tim.com" target="_blank">
+              Terms
+            </a>
+          </Typography>
+          
 
         </div>
       </div>
