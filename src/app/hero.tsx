@@ -23,7 +23,7 @@ function Hero() {
 
             <Typography color="white" className="font-medium" placeholder={undefined}>
                 <span className="flex">
-                  By requesting, you agree with Envy's 
+                  By requesting, you agree with Envy&apos;s 
                   <Typography placeholder={undefined}
                     as="a"
                     href="/terms"

@@ -38,7 +38,7 @@ function Privacy() {
                       <Link to="8" offset={-120} smooth="true" >Security of Your Personal Data</Link>
                     </li>
                     <li className="cursor-pointer my-5">
-                      <Link to="9" offset={-120} smooth="true" >Children's Privacy</Link>
+                      <Link to="9" offset={-120} smooth="true" >Children&apos;s Privacy</Link>
                     </li>
                     <li className="cursor-pointer my-5">
                       <Link to="10" offset={-120} smooth="true" >Links to Other Websites</Link>
@@ -62,9 +62,9 @@ function Privacy() {
                 </Typography>
                 <ol className="list-disc mt-5 pl-5">
                   <li><b>Account</b> means a unique account created for You to access our Service or parts of our Service.</li>
-                  <li><b> Affiliate</b> means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
+                  <li><b> Affiliate</b> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
                   <li><b> Application</b> refers to Envy, the software program provided by the Company.</li>
-                  <li><b> Company</b> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Senggers Ltd, 327 Morville Street, London E3 2DZ.</li>
+                  <li><b> Company</b> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Senggers Ltd, 327 Morville Street, London E3 2DZ.</li>
                   <li><b> Country</b> refers to: United Kingdom</li>
                   <li><b> Device</b> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
                   <li><b> Personal Data</b> is any information that relates to an identified or identifiable individual.</li>
@@ -90,7 +90,7 @@ function Privacy() {
                 <Typography placeholder="" variant="h4" className="mt-5">Usage Data</Typography>
                 <Typography placeholder="" className="mt-2" variant="paragraph">
                   Usage Data is collected automatically when using the Service.<br />
-                  Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.<br />
+                  Usage Data may include information such as Your Device&apos;s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.<br />
                   When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.<br />
                   We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.<br />
                 </Typography>
@@ -105,25 +105,25 @@ function Privacy() {
                   <li>LinkedIn</li>
                 </ol>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
-                  If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may collect Personal data that is already associated with Your Third-Party Social Media Service's account, such as Your name, Your email address, Your activities or Your contact list associated with that account.<br />
-                  You may also have the option of sharing additional information with the Company through Your Third-Party Social Media Service's account. If You choose to provide such information and Personal Data, during registration or otherwise, You are giving the Company permission to use, share, and store it in a manner consistent with this Privacy Policy.<br /></Typography>
+                  If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may collect Personal data that is already associated with Your Third-Party Social Media Service&apos;s account, such as Your name, Your email address, Your activities or Your contact list associated with that account.<br />
+                  You may also have the option of sharing additional information with the Company through Your Third-Party Social Media Service&apos;s account. If You choose to provide such information and Personal Data, during registration or otherwise, You are giving the Company permission to use, share, and store it in a manner consistent with this Privacy Policy.<br /></Typography>
                 <Typography placeholder="" variant="h4" className="mt-5">Information Collected while Using the Application</Typography>
                 <Typography placeholder="" className="mt-2" variant="paragraph">
                   While using Our Application, in order to provide features of Our Application, We may collect, with Your prior permission:<br /></Typography>
                 <ol className="list-disc mt-5 pl-5">
-                  <li>Pictures and other information from your Device's camera and photo library</li>
+                  <li>Pictures and other information from your Device&apos;s camera and photo library</li>
                 </ol>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
-                  We use this information to provide features of Our Service, to improve and customize Our Service. The information may be uploaded to the Company's servers and/or a Service Provider's server or it may be simply stored on Your device.<br />
+                  We use this information to provide features of Our Service, to improve and customize Our Service. The information may be uploaded to the Company&apos;s servers and/or a Service Provider&apos;s server or it may be simply stored on Your device.<br />
                   You can enable or disable access to this information at any time, through Your Device settings.</Typography>
                 <Typography placeholder="" variant="h3" className="mt-5"><Element name="3" className="element">Use of Your Personal Data</Element></Typography>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
                   The Company may use Personal Data for the following purposes:</Typography>
                 <ol className="list-disc mt-5 pl-5">
                   <li><b>To provide and maintain our Service</b>, including to monitor the usage of our Service.</li>
-                  <li><b>To manage Your Account:</b> means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
+                  <li><b>To manage Your Account:</b> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
                   <li><b>For the performance of a contract:</b> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</li>
-                  <li><b>To contact You:</b> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</li>
+                  <li><b>To contact You:</b> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application&apos;s push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</li>
                   <li><b>To provide You</b> with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.</li>
                   <li><b>To manage Your requests:</b> To attend and manage Your requests to Us.</li>
                   <li><b>For business transfers:</b> We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</li>
@@ -146,7 +146,7 @@ function Privacy() {
                 </Typography>
                 <Typography placeholder="" variant="h3" className="mt-5"><Element name="5" className="element">Transfer of Your Personal Data</Element></Typography>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
-                  Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction..<br />
+                  Your information, including Personal Data, is processed at the Company&apos;s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction..<br />
                   Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.<br />
                   The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
                 </Typography>
@@ -177,18 +177,18 @@ function Privacy() {
                 <Typography placeholder="" variant="h3" className="mt-5"><Element name="8" className="element">Security of Your Personal Data</Element></Typography>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
                   The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</Typography>
-                <Typography placeholder="" variant="h3" className="mt-5"><Element name="9" className="element">Children's Privacy</Element></Typography>
+                <Typography placeholder="" variant="h3" className="mt-5"><Element name="9" className="element">Children&apos;s Privacy</Element></Typography>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
                   Our Service does not address anyone under the age of 17. We do not knowingly collect personally identifiable information from anyone under the age of 17. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 17 without verification of parental consent, We take steps to remove that information from Our servers.<br />
-                  If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</Typography>
+                  If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent&apos;s consent before We collect and use that information.</Typography>
                 <Typography placeholder="" variant="h3" className="mt-5"><Element name="10" className="element">Links to Other Websites</Element></Typography>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
-                  Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.<br />
+                  Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party&apos;s site. We strongly advise You to review the Privacy Policy of every site You visit.<br />
                   We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</Typography>
                 <Typography placeholder="" variant="h3" className="mt-5"><Element name="11" className="element">Changes to this Privacy Policy</Element></Typography>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
                   We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.<br />
-                  We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.<br />
+                  We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.<br />
                   You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</Typography>
                 <Typography placeholder="" variant="h3" className="mt-5"><Element name="12" className="element">Contact Us</Element></Typography>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
