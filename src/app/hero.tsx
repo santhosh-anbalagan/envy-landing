@@ -11,32 +11,38 @@ function Hero() {
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
           <div className="col-span-1">
             <Typography variant="h1" color="white" className="mb-4" placeholder="">
-              <div className="text-9xl font-graduate">ENVY<sub className="text-3xl font-caveat">a lifestyle ? Try it!</sub></div>
+              <div className="text-9xl font-graduate">ENVY<sub className="text-2xl font-caveat">a lifestyle ? Try it!</sub></div>
             </Typography>
             <div className="w-100 mb-7 !text-white md:pr-16 xl:pr-28">
               <Input type="email" color="white" label="Email Address" crossOrigin={undefined} />
             </div>
             {/* </Typography> */}
             <Typography className="mb-4" color="white" variant="h6" placeholder="">
-              Share your email with us to unlock a world of new experiences! Sign up now to <br /> be among the first to be notified and become a trendsetter!
+              Share your email with us to unlock a world of new experiences!<br /> Sign up now to  be among the first to be notified and become a trendsetter!
             </Typography>
 
-            <Checkbox
-              label={<Typography color="white" className="font-medium" placeholder={undefined}>
+            <Typography color="white" className="font-medium" placeholder={undefined}>
                 <span className="flex">
-                  I accept the
+                  By requesting, you agree with Envy's 
                   <Typography placeholder={undefined}
                     as="a"
                     href="/terms"
                     color="blue"
                     className="font-medium transition-colors hover:text-blue-700"
                   >
-                    &nbsp;terms and conditions
+                    &nbsp;Terms &#38;
+                  </Typography>
+                  <Typography placeholder={undefined}
+                    as="a"
+                    href="/privacy"
+                    color="blue"
+                    className="font-medium transition-colors hover:text-blue-700"
+                  >
+                   &nbsp; Privacy
 
                   </Typography>
                 </span>
-                (you will be notified only when the app becomes available on the store)
-              </Typography>} crossOrigin={undefined} />
+              </Typography>
             {/* <Checkbox
               label={<Typography color="white" className="font-medium" placeholder={undefined}>
                 <span className="flex">

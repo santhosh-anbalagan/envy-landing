@@ -26,7 +26,7 @@ function Why() {
                     </Typography>
                     <Typography placeholder=""
                         variant="lead"
-                        className="mb-5 px-4 text-left text-3xl !text-gray-500 lg:px-0 font-caveat"
+                        className="mb-5 px-4 text-left text-2xl !text-gray-500 lg:px-0 font-caveat"
                     >
                         <span>Explore: Dive into the distinct realms of culture,<br />
                             location, and vocation, experiencing their unique<br />

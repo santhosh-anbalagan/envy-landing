@@ -26,7 +26,7 @@ export function VideoIntro() {
           <Typography
             placeholder=""
             variant="lead"
-            className="mb-5 px-4 text-left font-caveat text-3xl !text-gray-500 lg:px-0  "
+            className="mb-5 px-4 text-left font-caveat text-2xl !text-gray-500 lg:px-0  "
             color="black"
           >
             <span>
