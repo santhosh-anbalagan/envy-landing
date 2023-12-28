@@ -41,7 +41,7 @@ export function VideoIntro() {
         </div>
         <div className="">
           <div className="w-full container p-5 overflow-hidden rounded-xl relative mx-auto max-w-6xl ">
-            <video className="h-[75vh] w-full rounded-lg" controls autoPlay>
+            <video className="h-[75vh] w-full rounded-lg" controls autoPlay loop>
               <source
                 src="https://s3.eu-west-2.amazonaws.com/envy.public/media/video/2023-12-24_18_30_12_video.MP4"
                 type="video/mp4"

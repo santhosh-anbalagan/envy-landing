@@ -9,7 +9,7 @@ function Terms() {
           <div className="container mx-auto mt-20 h-full w-full ">
             <Card placeholder="" className="mt-6 w-full pb-20 text-black">
               <CardBody placeholder="" className="m-10">
-                <Typography placeholder="" variant="h1">Envy App - Terms and Conditions</Typography>
+                <Typography placeholder="" variant="h1">Envy - Terms and Conditions</Typography>
                 <Typography placeholder="" variant="h4" className="mt-10">Table of Contents</Typography>
                 <span>
                   <ol className="list-decimal pl-5 underline">
