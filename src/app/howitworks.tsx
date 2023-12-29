@@ -30,7 +30,7 @@ function HowItWorks() {
                         color="black"
                     >
                         <span>Envy is a unique experience-sharing app<br />
-                            where individuals auhentically showcase<br />
+                            where individuals authentically showcase<br />
                             their daily lifestyles. If curiosity beckons,<br />
                             slide to request your host and choose your<br />
                             dates to immerse yourself in the<br />

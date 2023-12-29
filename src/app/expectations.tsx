@@ -27,17 +27,17 @@ function Expectations() {
     {
       img: "/image/avatar1.jpg",
       title: "SWAP",
-      desc: "choose to swap places and lifestyles with an interested party. Imagine a swap between a farming and a top boy lifestyle",
+      desc: "Choose to swap places and lifestyles with an interested party. Imagine a swap between a farming and a top boy lifestyle",
     },
     {
       img: "/image/avatar1.jpg",
       title: "HOST",
-      desc: "Living an envious lifestyle yourself? Share it with others ",
+      desc: "Living an envious lifestyle yourself? Share it with others",
     },
     {
       img: "/image/avatar1.jpg",
       title: "LIVE",
-      desc: "Traveling for while and have an empty pad. Curate a lifestyle and earn some cash",
+      desc: "Travelling for a while and have an empty pad. Curate a lifestyle and earn some cash",
     },
     // Add more image URLs as needed
   ];
