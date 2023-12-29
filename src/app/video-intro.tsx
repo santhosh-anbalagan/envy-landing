@@ -1,12 +1,10 @@
 "use client";
 
-import { PlayIcon } from "@heroicons/react/24/outline";
-import { IconButton, Typography } from "@material-tailwind/react";
-import Image from "next/image";
+import { Typography } from "@material-tailwind/react";
 
 export function VideoIntro() {
   return (
-    <section className="pb-5 px-8">
+    <section className="pb-5 px-8 mt-10 lg:mt-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
           <Typography

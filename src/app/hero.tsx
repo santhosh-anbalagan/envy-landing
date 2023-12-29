@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Checkbox, Input, Typography } from "@material-tailwind/react";
+import { Button, Input, Typography } from "@material-tailwind/react";
 import Image from "next/image";
 import React from "react";
 
@@ -11,7 +11,7 @@ function Hero() {
   return (
     <div className="relative min-h-screen w-full">
       <header className="grid !min-h-[100vh] px-8 bg-envy-green">
-        <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
+        <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2 pb-25 sm:pb-0">
           <div className="col-span-1">
             <Typography
               variant="h1"
@@ -25,8 +25,8 @@ function Hero() {
                   a lifestyle ? Try it!
                 </sub>
               </div> */}
-              
-              <div className="grid grid-rows-3 grid-flow-col gap-3">
+
+              <div className="grid grid-rows-1 lg:grid-rows-2   gap-3 row ">
                 <div className="row-span-3 text-9xl font-graduate">ENVY</div>
                 <div className="row-span-3 col-span-2 self-center"><sub className="text-2xl font-caveat">
                   a lifestyle ? Try it!

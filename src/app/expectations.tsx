@@ -1,8 +1,7 @@
 "use client";
 
-import { Button, Card, CardBody, CardFooter, CardHeader, IconButton, Tooltip, Typography } from "@material-tailwind/react";
+import { Card, CardBody, CardHeader, Typography } from "@material-tailwind/react";
 import Image from "next/image";
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 const responsive = {
@@ -103,7 +102,7 @@ function Expectations() {
         // </div>
 
         <section className="grid !min-h-[55rem] px-8">
-            <div className="grid grid-cols-3 lg:grid-cols-3 gap-12 max-w-full mx-auto items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full mx-auto items-center">
                 {sampleImages.map((image, index) => (
                     <div key={index}>
                         <Card className="w-full shadow-lg" placeholder="">
