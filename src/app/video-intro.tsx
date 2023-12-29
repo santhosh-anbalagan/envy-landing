@@ -30,7 +30,7 @@ export function VideoIntro() {
             color="black"
           >
             <span>
-              Countless people navigate distict lifestyles,
+              Countless people navigate distinct lifestyles,
               <br />
               Have you ever imagined the excitement of <br />
               defining into those unique worlds? Our app <br />

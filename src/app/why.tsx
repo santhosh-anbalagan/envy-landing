@@ -46,13 +46,13 @@ function Why() {
             </span>
             <br />
             <span>
-              Elevaing the Experience: Inroducing a<br />
-              Dynamic Point System for Added Excittment
+              Elevating the experience: Introducing a<br />
+              Dynamic Point System for added excitement
               <br />
             </span>
             <br />
             <span>
-              It&apos;s Safe: Only Verified profiles, authenic
+              It&apos;s Safe: Only verified profiles, authentic
               <br />
               individuals sharing genuine day-to-day routines.
               <br />
@@ -64,7 +64,7 @@ function Why() {
             </span>
             <br />
             <span>
-              Timeline: Miniimum 24 hours. It transcends a<br />
+              Timeline: Minimum 24 hours. It transcends a<br />
               mere activity.
               <br />
             </span>
