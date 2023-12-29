@@ -107,6 +107,13 @@ function Expectations() {
     // </div>
 
     <section className="grid !min-h-[55rem] px-8">
+      <Typography
+        variant="h1"
+        className="font-graduate  text-envy-green place-self-center"
+        placeholder=""
+      >
+        WHAT TO EXPECT
+      </Typography>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full mx-auto items-center">
         {sampleImages.map((image, index) => (
           <div key={index}>

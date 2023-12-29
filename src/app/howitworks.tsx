@@ -6,9 +6,9 @@ import Image from "next/image";
 
 function HowItWorks() {
     return (
-        <section className="grid !min-h-[55rem] px-8 bg-envy-green">
+        <section className="grid !min-h-[35rem] px-8 bg-envy-green content-between ">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
-                <div className="p-8">
+                <div>
                     <div className="w-full container px-5 overflow-hidden rounded-xl relative mx-auto mt-20 max-w-6xl ">
                         <div className="bg-black/25 z-10 absolute w-full h-full inset-0 rounded-xl" />
                         <Image

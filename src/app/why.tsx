@@ -1,16 +1,22 @@
 "use client";
 
 import { Typography } from "@material-tailwind/react";
-import Image from "next/image";
 
 function Why() {
   return (
-    <section className="grid !min-h-[55rem] px-8 bg-envy-green">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
-        <div className="p-8">
-          <div className="w-full container p-5 overflow-hidden rounded-xl relative mx-auto max-w-6xl ">
+    <section className="grid !min-h-[50rem] px-8 bg-envy-green">
+      <Typography
+        variant="h1"
+        className="font-graduate mb-1 place-self-center pt-20 sm:hidden"
+        placeholder=""
+      >
+        WHY TRY IT
+      </Typography>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center py-10">
+        <div>
+          <div className="w-full container overflow-hidden rounded-xl relative mx-auto max-w-6xl">
             <video
-              className="h-[75vh] w-full rounded-lg"
+              className="h-[75vh] w-full min-w-[40vw] rounded-lg bg-black"
               controls
               autoPlay
               loop
@@ -26,7 +32,7 @@ function Why() {
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0 text-envy-green">
           <Typography
             variant="h2"
-            className="mb-4 font-graduate text-white"
+            className="mb-4 font-graduate text-white hidden lg:block "
             placeholder=""
           >
             WHY TRY IT
