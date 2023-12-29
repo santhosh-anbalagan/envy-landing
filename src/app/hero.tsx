@@ -19,11 +19,19 @@ function Hero() {
               className="mb-4"
               placeholder=""
             >
-              <div className="text-9xl font-graduate">
+              {/* <div className="text-9xl font-graduate">
                 ENVY
                 <sub className="text-2xl font-caveat">
                   a lifestyle ? Try it!
                 </sub>
+              </div> */}
+              
+              <div className="grid grid-rows-3 grid-flow-col gap-3">
+                <div className="row-span-3 text-9xl font-graduate">ENVY</div>
+                <div className="row-span-3 col-span-2 self-center"><sub className="text-2xl font-caveat">
+                  a lifestyle ? Try it!
+                </sub></div>
+                {/* <div className="row-span-2 col-span-2 ...">03</div> */}
               </div>
             </Typography>
             <div className="w-full mb-3 !text-white  relative flex max-w-[24rem]">
