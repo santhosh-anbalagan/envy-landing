@@ -105,16 +105,16 @@ function Expectations() {
     //             ))}
     //         </Carousel>
     // </div>
-
-    <section className="grid !min-h-[55rem] px-8">
+    
+    <section className="grid !min-h-[45rem] px-8 mb-10 sm:mb-0">
       <Typography
         variant="h1"
-        className="font-graduate  text-envy-green place-self-center"
+        className="font-graduate text-envy-green place-self-center text-4xl my-12 lg:my-0"
         placeholder=""
       >
         WHAT TO EXPECT
       </Typography>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full mx-auto items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full lg:max-w-7xl mx-auto items-center">
         {sampleImages.map((image, index) => (
           <div key={index}>
             <Card className="w-full shadow-lg" placeholder="">
@@ -124,7 +124,7 @@ function Expectations() {
                   height={576}
                   src={image.img}
                   alt="team work"
-                  className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
+                  className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[45rem] lg:translate-y-0"
                 />
                 <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
               </CardHeader>

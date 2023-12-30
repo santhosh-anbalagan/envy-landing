@@ -20,7 +20,7 @@ function HowItWorks() {
                         />
                     </div>
                 </div>
-                <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
+                <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0 items-center">
                     <Typography variant="h2" className="mb-4 font-graduate text-white" placeholder="">
                         HOW IT WORKS
                     </Typography>
