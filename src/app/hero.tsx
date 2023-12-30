@@ -21,7 +21,7 @@ function Hero() {
             >
               <div className="grid grid-rows-1 lg:grid-rows-3 lg:grid-flow-col gap-3 row ">
                 <div className="row-span-3 text-9xl font-graduate">ENVY</div>
-                <div className="row-span-3 col-span-2 self-center"><sub className="text-2xl font-caveat">
+                <div className="row-span-3 col-span-2 self-center"><sub className="text-4xl font-caveat">
                   a lifestyle ? Try it!
                 </sub></div>
                 {/* <div className="row-span-2 col-span-2 ...">03</div> */}
