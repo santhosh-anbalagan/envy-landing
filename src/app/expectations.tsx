@@ -30,18 +30,18 @@ function Expectations() {
   const sampleImages = [
     {
       img: "/image/avatar1.jpg",
-      title: "SWAP",
-      desc: "Choose to swap places and lifestyles with an interested party. Imagine a swap between a farming and a top boy lifestyle",
-    },
-    {
-      img: "/image/avatar1.jpg",
       title: "HOST",
-      desc: "Living an envious lifestyle yourself? Share it with others",
+      desc: "Privileged with an enviable lifestyle? Let others in on the excitement!",
     },
     {
       img: "/image/avatar1.jpg",
       title: "LIVE",
-      desc: "Travelling for a while and have an empty pad. Curate a lifestyle and earn some cash",
+      desc: "Jet-setting for a while with an empty abode? Curate a personalized lifestyle for someone while you're not around.",
+    },
+    {
+      img: "/image/avatar1.jpg",
+      title: "SWAP",
+      desc: "Choose to trade places and experiences with someone intrigued. Envision the contrast of a rustic farming routine to the pulsating energy of a cosmopolitan lifestyle.",
     },
     // Add more image URLs as needed
   ];
