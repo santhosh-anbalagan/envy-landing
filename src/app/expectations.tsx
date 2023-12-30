@@ -32,16 +32,19 @@ function Expectations() {
       img: "/image/avatar1.jpg",
       title: "HOST",
       desc: "Privileged with an enviable lifestyle? Let others in on the excitement!",
+      src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/Yoga+-+Host+Pref1.mp4"
     },
     {
       img: "/image/avatar1.jpg",
       title: "LIVE",
       desc: "Jet-setting for a while with an empty abode? Curate a personalized lifestyle for someone while you're not around.",
+      src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/mixkit-woman-playing-online-with-her-friends-43531-medium.mp4"
     },
     {
       img: "/image/avatar1.jpg",
       title: "SWAP",
       desc: "Choose to trade places and experiences with someone intrigued. Envision the contrast of a rustic farming routine to the pulsating energy of a cosmopolitan lifestyle.",
+      src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/Swap+-+first+15+sec.mp4"
     },
     // Add more image URLs as needed
   ];
@@ -57,15 +60,28 @@ function Expectations() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full lg:max-w-7xl mx-auto items-center mb-5">
         {sampleImages.map((image, index) => (
           <div key={index}>
-            <Card className="w-full shadow-lg" placeholder="">
-              <CardHeader floated={false} color="blue-gray" placeholder="">
-                <Image
+            <Card className="w-auto shadow-lg" placeholder="">
+              <CardHeader floated={false} placeholder="">
+                {/* <Image
                   width={470}
                   height={576}
                   src={image.img}
                   alt="team work"
                   className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[45rem] lg:translate-y-0"
-                />
+                /> */}
+                  <video
+                    className=" w-auto rounded-lg"
+                    controls
+                    autoPlay
+                    loop
+                    muted
+                  >
+                    <source
+                      src={image.src}
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
                 <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
               </CardHeader>
               <CardBody placeholder="" className=" min-h-[18rem]">
@@ -77,10 +93,13 @@ function Expectations() {
                   >
                     {image.title}
                   </Typography>
-                  <span>
-                  </span>
+                  <span></span>
                 </div>
-                <Typography placeholder="" color="gray" className="!text-gray-500  text-2xl font-caveat text-justify">
+                <Typography
+                  placeholder=""
+                  color="gray"
+                  className="!text-gray-500  text-2xl font-caveat text-justify"
+                >
                   {image.desc}
                 </Typography>
               </CardBody>
