@@ -36,7 +36,7 @@ function Expectations() {
     {
       title: "LIVE",
       desc: "Jet-setting for a while with an empty abode? Curate a personalized lifestyle for someone while you're not around.",
-      src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/mixkit-woman-playing-online-with-her-friends-43531-medium.mp4"
+      src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/pexels-cottonbro-7247546+(2160p).mp4"
     },
     {
       title: "SWAP",
@@ -52,7 +52,7 @@ function Expectations() {
         className="mb-4 font-graduate text-envy-green my-12 lg:my-0 flex content-between flex-col-reverse justify-between items-center"
         placeholder=""
       >
-        WHAT TO EXPECT
+        WHAT TO EXPECT!
       </Typography>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full lg:max-w-7xl mx-auto items-center mb-5">
         {sampleImages.map((image, index) => (
