@@ -17,7 +17,7 @@ export function VideoIntro() {
           <Typography
             placeholder=""
             variant="paragraph"
-            className="mb-5 text-justify px-4 font-caveat text-4xl !text-gray-500 lg:px-0"
+            className="mb-5 text-justify px-4 font-caveat text-3xl !text-gray-500 lg:px-0"
             color="black"
           >
             <span>
