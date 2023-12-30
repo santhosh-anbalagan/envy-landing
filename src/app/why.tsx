@@ -12,27 +12,22 @@ function Why() {
       >
         WHY TRY IT
       </Typography>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-48 max-w-6xl mx-auto items-center py-10">
-        <div>
-          <div className="w-full container overflow-hidden rounded-xl relative mx-auto max-w-6xl">
-            <video
-              className="h-[75vh] w-full min-w-[20vw] rounded-lg bg-black"
-              controls
-              autoPlay
-              loop
-            >
-              <source
-                src="https://s3.eu-west-2.amazonaws.com/envy.public/media/video/why_try_it.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-48 max-w-[85vw] mx-auto items-center py-10">
+        <div className="w-full container overflow-hidden rounded-xl relative mx-auto max-w-7xl ">
+          <video
+            className="h-[60vh] w-full rounded-lg " controls autoPlay loop
+          >
+            <source
+              src="https://s3.eu-west-2.amazonaws.com/envy.public/media/video/why_try_it.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0 text-envy-green">
           <Typography
-            variant="h2"
-            className="mb-4 font-graduate text-white hidden lg:block "
+            variant="h1"
+            className="mb-4 font-graduate text-white lg:block "
             placeholder=""
           >
             WHY TRY IT
@@ -40,7 +35,7 @@ function Why() {
           <Typography
             placeholder=""
             variant="lead"
-            className="mb-5 px-4 text-left text-2xl !text-gray-500 lg:px-0 font-caveat"
+            className="mb-5 px-4 text-justify text-3xl !text-gray-500 lg:px-0 font-caveat"
           >
             <span>
               Explore: Dive into the distinct realms of culture,

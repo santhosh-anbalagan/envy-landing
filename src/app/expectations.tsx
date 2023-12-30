@@ -46,75 +46,15 @@ function Expectations() {
     // Add more image URLs as needed
   ];
   return (
-    // <div className="grid !min-h-[55rem] px-8">
-
-    //         <Carousel
-    //             swipeable={true}
-    //             draggable={true}
-    //             showDots={true}
-    //             responsive={responsive}
-    //             infinite={true}
-    //             autoPlay={true}
-    //             autoPlaySpeed={3000}
-    //             keyBoardControl={true}
-    //             customTransition="all .5"
-    //             transitionDuration={500}
-    //             containerClass="carousel-container"
-    //             removeArrowOnDeviceType={['tablet', 'mobile']}
-    //             dotListClass="custom-dot-list-style"
-    //             itemClass="carousel-item-padding-40-px"
-    //         >
-    //             {sampleImages.map((image, index) => (
-    //                 <div key={index}>
-    //                     {/* <img src={image} alt={`Carousel Image ${index + 1}`} /> */}
-    //                     <Card className="w-full max-w-[26rem] shadow-lg" placeholder="">
-    //                         <CardHeader floated={false} color="blue-gray" placeholder="">
-    //                             {/* <img
-    //                         src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-    //                         alt="ui/ux review check"
-    //                     /> */}
-    //                             <Image
-    //                                 width={470}
-    //                                 height={576}
-    //                                 src={image}
-    //                                 alt="team work"
-    //                                 className="col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
-    //                             />
-    //                             <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
-
-    //                         </CardHeader>
-    //                         <CardBody placeholder="">
-    //                             <div className="mb-3 flex items-center justify-between">
-    //                                 <Typography variant="h5" color="blue-gray" className="font-medium" placeholder="">
-    //                                     Wooden House, Florida
-    //                                 </Typography>
-    //                                 <span>
-    //                                     <Typography placeholder=""
-    //                                         color="blue-gray"
-    //                                         className="flex items-center gap-1.5 font-normal"                                  >
-    //                                     </Typography>
-    //                                 </span>
-    //                             </div>
-    //                             <Typography placeholder="" color="gray">
-    //                                 Enter a freshly updated and thoughtfully furnished peaceful home
-    //                                 surrounded by ancient trees, stone walls, and open meadows.
-    //                             </Typography>
-    //                         </CardBody>
-    //                     </Card>
-    //                 </div>
-    //             ))}
-    //         </Carousel>
-    // </div>
-    
     <section className="grid !min-h-[45rem] px-8 mb-10 sm:mb-0">
       <Typography
         variant="h1"
-        className="font-graduate text-envy-green place-self-center text-4xl my-12 lg:my-0"
+        className="mb-4 font-graduate text-envy-green my-12 lg:my-0 flex content-between flex-col-reverse justify-between items-center"
         placeholder=""
       >
         WHAT TO EXPECT
       </Typography>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full lg:max-w-7xl mx-auto items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full lg:max-w-7xl mx-auto items-center mb-5">
         {sampleImages.map((image, index) => (
           <div key={index}>
             <Card className="w-full shadow-lg" placeholder="">
@@ -128,12 +68,11 @@ function Expectations() {
                 />
                 <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
               </CardHeader>
-              <CardBody placeholder="">
-                <div className="mb-3 flex items-center justify-between">
+              <CardBody placeholder="" className=" min-h-[18rem]">
+                <div className="mb-3 flex items-center justify-between ">
                   <Typography
-                    variant="h5"
-                    color="blue-gray"
-                    className="font-medium"
+                    variant="h3"
+                    className="font-graduate text-envy-green"
                     placeholder=""
                   >
                     {image.title}
@@ -141,7 +80,7 @@ function Expectations() {
                   <span>
                   </span>
                 </div>
-                <Typography placeholder="" color="gray">
+                <Typography placeholder="" color="gray" className="!text-gray-500  text-2xl font-caveat text-justify">
                   {image.desc}
                 </Typography>
               </CardBody>
