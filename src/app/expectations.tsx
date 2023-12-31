@@ -36,7 +36,7 @@ function Expectations() {
     {
       title: "LIVE",
       desc: "Jet-setting for a while with an empty abode? Curate a personalized lifestyle for someone while you're not around.",
-      src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/pexels-cottonbro-7247546+(2160p).mp4"
+      src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/pexels-c-technical-6686153+(Original).mp4"
     },
     {
       title: "SWAP",
