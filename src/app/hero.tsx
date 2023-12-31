@@ -1,13 +1,28 @@
 "use client";
 
 import { Button, Checkbox, Input, Typography } from "@material-tailwind/react";
+import axios from "axios";
 import Image from "next/image";
 import React from "react";
 
 function Hero() {
   const [email, setEmail] = React.useState("");
-  const onChange = ({ target }: { target: any }) => setEmail(target.value);
+  const onChange = ({ target }: { target: any }) => { setEmail(target.value) }
+  const apiUrl = 'http://api-janite.envy.fun';
 
+  const postCall = () => {
+    axios({
+      method: 'post',
+      url: apiUrl + '/user/app/req',
+      headers: { 'Content-Type': 'application/json' },
+      data: {
+        email: email
+      }
+    }).then(() => {
+      setEmail('666%');
+    }).catch(() => {
+    })
+  }
   return (
     <div className="relative min-h-screen w-full">
       <header className="grid !min-h-[100vh] px-8 bg-envy-green">
@@ -27,24 +42,46 @@ function Hero() {
                 {/* <div className="row-span-2 col-span-2 ...">03</div> */}
               </div>
             </Typography>
-            <div className="w-full mb-3 !text-white  relative flex max-w-[24rem]">
-              <Input
-                type="email"
-                color="white"
-                label="Email Address"
-                onChange={onChange}
-                crossOrigin={undefined}
-              />
-              <Button
-                size="sm"
-                color={email ? "pink" : "blue-gray"}
-                disabled={!email}
-                className="!absolute right-1 top-1 rounded"
-                placeholder={undefined}
-              >
-                Request
-              </Button>
-            </div>
+            {email != '666%' ?
+              <div className="w-full mb-3 !text-white  relative flex max-w-[24rem]">
+                <Input
+                  type="email"
+                  color="white"
+                  label="Email Address"
+                  onChange={onChange}
+                  crossOrigin={undefined}
+                />
+                <Button
+                  size="sm"
+                  color={email ? "pink" : "blue-gray"}
+                  disabled={!email}
+                  className="!absolute right-1 top-1 rounded"
+                  placeholder={undefined}
+                  onClick={postCall}
+                >
+                  Request
+                </Button>
+              </div>
+              : (
+                <span className="text-white ">
+                  <Typography
+                    className="text-xl mb-4 flex flex-row flex-wrap items-center font-caveat"
+                    variant="paragraph"
+                    placeholder={undefined}
+                  >
+                    <Image
+                      width={30}
+                      height={30}
+                      src="/image/check-envy.svg"
+                      alt="team work"
+                      className=""
+                    />
+                    &nbsp;&nbsp;Request Sent Successfully !!!
+                  </Typography>
+
+                </span>
+              )
+            }
             <Typography
               color="white"
               className="text-xs mb-4"
@@ -97,3 +134,4 @@ function Hero() {
   );
 }
 export default Hero;
+

@@ -34,6 +34,7 @@ export default function RootLayout({
         <link rel="icon" href="/images/tab-icon.png"/>
         <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet' />
         <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet' />
+        <link href="https://unpkg.com/typewriter-effect@latest/dist/core.js"rel='script'/>
       </head>
       <body className={roboto.className}>
         <Layout>
