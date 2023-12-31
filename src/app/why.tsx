@@ -13,9 +13,9 @@ function Why() {
         WHY TRY IT
       </Typography>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-48 max-w-[85vw] mx-auto items-center py-10">
-        <div className="w-full container overflow-hidden rounded-xl relative mx-auto max-w-7xl ">
+        <div className="justify-self-center overflow-hidden rounded-xl relative mx-auto max-w-7xl ">
           <video
-            className="h-[60vh] w-full rounded-lg " controls autoPlay loop
+            className="h-[60vh] w-auto rounded-lg " controls autoPlay loop
           >
             <source
               src="https://s3.eu-west-2.amazonaws.com/envy.public/media/video/why_try_it.mp4"

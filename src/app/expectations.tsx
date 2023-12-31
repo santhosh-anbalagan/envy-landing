@@ -49,7 +49,7 @@ function Expectations() {
     <section className="grid !min-h-[45rem] px-8 mb-10 sm:mb-0">
       <Typography
         variant="h1"
-        className="mb-4 font-graduate text-envy-green my-12 lg:my-0 flex content-between flex-col-reverse justify-between items-center"
+        className="mb-4 font-graduate text-envy-green my-12 lg:my-0 flex content-between flex-col-reverse justify-between items-center py-5"
         placeholder=""
       >
         WHAT TO EXPECT
@@ -57,9 +57,9 @@ function Expectations() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full lg:max-w-7xl mx-auto items-center mb-5">
         {sampleImages.map((image, index) => (
           <div key={index}>
-            <Card className="w-auto shadow-lg" placeholder="">
+          <Card className="w-auto shadow-lg" placeholder="">
               <CardHeader floated={false} placeholder="">
-                  <video
+              <video
                     className=" w-auto rounded-lg"
                     controls
                     autoPlay
@@ -72,7 +72,7 @@ function Expectations() {
                     />
                     Your browser does not support the video tag.
                   </video>
-                <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
+                  <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
               </CardHeader>
               <CardBody placeholder="" className=" min-h-[18rem]">
                 <div className="mb-3 flex items-center justify-between ">
