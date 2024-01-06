@@ -57,22 +57,22 @@ function Expectations() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-full lg:max-w-7xl mx-auto items-center mb-5">
         {sampleImages.map((image, index) => (
           <div key={index}>
-          <Card className="w-auto shadow-lg" placeholder="">
+            <Card className="w-auto shadow-lg" placeholder="">
               <CardHeader floated={false} placeholder="">
-              <video
-                    className=" w-auto rounded-lg min-h-[43rem]"
-                    controls
-                    autoPlay
-                    loop
-                    muted
-                  >
-                    <source
-                      src={image.src}
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                  </video>
-                  <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
+                <video
+                  className="object-fill w-auto rounded-lg min-h-[43rem]"
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                >
+                  <source
+                    src={image.src}
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
               </CardHeader>
               <CardBody placeholder="" className=" min-h-[18rem]">
                 <div className="mb-3 flex items-center justify-between ">
