@@ -27,7 +27,7 @@ function Why() {
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0 text-envy-green">
           <Typography
             variant="h1"
-            className="mb-4 font-graduate text-white lg:block "
+            className="mb-4 font-graduate text-white hidden lg:block"
             placeholder=""
           >
             WHY TRY IT
