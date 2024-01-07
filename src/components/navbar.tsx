@@ -64,7 +64,7 @@ export function Navbar() {
       blurred={false}
       color={isScrolling ? "white" : "transparent"}
       className="fixed top-0 z-50 border-0" placeholder={undefined}    >
-      <div className="container mx-auto flex items-center justify-center ">
+      <div className="container mx-auto flex items-center justify-center flex-col">
 
         <Link href="/">
           <Image
