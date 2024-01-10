@@ -24,8 +24,8 @@ function Hero() {
     })
   }
   return (
-    <div className="relative min-h-screen w-full">
-      <header className="grid !min-h-[100vh] px-8 bg-envy-green">
+    <div className="relative  w-full">
+      <header className="grid !min-h-[100vh] 2xl:!min-h-[50rem] px-8 bg-envy-green">
         <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:grid-cols-2 content-between">
           <div className="col-span-1">
             <Typography
