@@ -63,12 +63,12 @@ export function Navbar() {
       shadow={false}
       blurred={false}
       color={isScrolling ? "white" : "transparent"}
-      className="fixed top-0 z-50 border-0" placeholder={undefined}    >
+      className="fixed xsm:h-[5rem] top-0 z-50 border-0" placeholder={undefined}    >
       <div className="container mx-auto flex items-center justify-center flex-col">
 
         <Link href="/">
           <Image
-            width={100}
+            width={isScrolling?85:100}
             height={200}
             src={isScrolling ? '/logos/envy-ico-green.svg' : '/logos/envy-ico-white.svg'}
             alt="team work"
