@@ -68,7 +68,7 @@ export function Navbar() {
 
         <Link href="/">
           <Image
-            width={isScrolling?85:100}
+            width={85}
             height={200}
             src={isScrolling ? '/logos/envy-ico-green.svg' : '/logos/envy-ico-white.svg'}
             alt="team work"
