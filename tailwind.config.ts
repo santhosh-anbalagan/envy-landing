@@ -17,11 +17,12 @@ const config: Config = withMT({
       },
     },
     screens: {
+      'xsm': { 'min': '180px', 'max': '440px' },
       'xl': { 'min': '1280px', 'max': '1949px' },
       // => @media (min-width: 1280px and max-width: 1535px) { ... }
 
       '2xl': { 'min': '1950px' },
-    },
+    }
   },
   plugins: [],
 });

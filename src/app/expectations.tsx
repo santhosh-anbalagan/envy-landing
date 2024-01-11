@@ -60,7 +60,7 @@ function Expectations() {
             <Card placeholder="" className="shadow-none lg:shadow-lg">
               <CardHeader floated={false} placeholder="">
                 <video
-                className="object-fill rounded-lg min-h-[17rem] lg:min-h-[43rem]"
+                className="object-cover w-full lg:object-fill rounded-lg min-h-[17rem] xsm:!max-h-[30rem] lg:min-h-[43rem]"
                   controls
                   autoPlay
                   loop
