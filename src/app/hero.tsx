@@ -8,7 +8,7 @@ import React from "react";
 function Hero() {
   const [email, setEmail] = React.useState("");
   const onChange = ({ target }: { target: any }) => { setEmail(target.value) }
-  const apiUrl = 'http://api-janite.envy.fun';
+  const apiUrl = 'https://api-janite.envy.fun';
 
   const postCall = () => {
     axios({
