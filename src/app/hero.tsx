@@ -24,9 +24,9 @@ function Hero() {
     })
   }
   return (
-    <div className="relative  w-full">
+    <div className="">
       <header className="grid !min-h-[100vh] 2xl:!min-h-[50rem] px-8 bg-envy-green">
-        <div className="container mx-auto mt-32 grid h-full w-full grid-cols-1 place-items-center lg:grid-cols-2 content-between">
+        <div className="grid mx-auto mt-32 h-full w-full grid-cols-1 place-items-center lg:grid-cols-2 max-w-max lg:max-w-7xl  content-between">
           <div className="col-span-1">
             <Typography
               variant="h1"
