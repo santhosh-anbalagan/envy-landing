@@ -116,14 +116,6 @@ function Hero() {
                   &nbsp;Privacy
                 </Typography>
               </span>
-            </Typography>
-            {/* </Typography> */}
-            <Typography
-              className="mb-4"
-              color="white"
-              variant="h6"
-              placeholder=""
-            >
               Share your email with us to unlock a world of new experiences!
               <br /> Sign up now to be among the first to be notified and become
               a trendsetter!
@@ -132,7 +124,7 @@ function Hero() {
           <Image
             width={470}
             height={576}
-            src="/image/iphones.png"
+            src="/image/1-3.svg"
             alt="team work"
             className="cursor-pointer col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
           />

@@ -10,13 +10,13 @@ function HowItWorks() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-48 max-w-[80vw] mx-auto items-center mb-10">
             <div className="px-5 overflow-hidden relative mx-auto mt-20 ">
               <div className=" w-full h-full inset-0" />
-               <Image
-                  width={470}
-                  height={576}
-                  src="/image/avatar1.jpg"
-                  alt="team work"
-                  className="col-span-1 my-20 h-full max-h-[30rem] rounded-xl -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[45rem] lg:translate-y-0"
-                />
+              <video className="h-[40rem] w-full rounded-lg object-cover" controls autoPlay loop muted>
+              <source
+                src="/video/en_fun.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
             </div>
             <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0 items-center ">
               <Typography
