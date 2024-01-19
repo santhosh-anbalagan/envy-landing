@@ -9,7 +9,7 @@ export function VideoIntro() {
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
           <Typography
             variant="h1"
-            className="mb-4 font-graduate text-envy-green"
+            className="mb-4 font-graduate text-envy-green pt-5 lg:pt-0 text-center lg:text-left"
             placeholder=""
           >
             UNVEILING ENVY

@@ -32,8 +32,8 @@ function HowItWorks() {
                 className="mb-5 text-justify px-4  font-caveat text-3xl !text-gray-500 lg:px-0"
                 color="black"
               >
-                <span>Envy is a unique experience-sharing app
-                  where individuals authentically showcase
+                <span>Envy, a unique experience-sharing app
+                  where users candidly showcase
                   their daily lifestyles. If curiosity beckons,
                   slide to request your host and choose your
                   dates to immerse yourself in the

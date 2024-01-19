@@ -49,7 +49,7 @@ function Expectations() {
     <section className="grid min-h-[30rem] lg:min-h-[46rem] px-2 lg:px-8 mb-10 sm:mb-0">
       <Typography
         variant="h1"
-        className="px-3 lg:px-0 mb-4 font-graduate text-envy-green my-12 lg:my-0 flex content-between flex-col-reverse justify-between items-center py-5"
+        className="px-3 lg:px-0 mb-4 font-graduate text-envy-green my-12 lg:my-0 flex content-between flex-col-reverse justify-between items-center py-5 text-center lg:text-left"
         placeholder=""
       >
         WHAT TO EXPECT

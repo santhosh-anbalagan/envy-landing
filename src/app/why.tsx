@@ -38,24 +38,18 @@ function Why() {
             className="mb-5 px-4 text-justify text-3xl !text-gray-500 lg:px-0 font-caveat"
           >
             <span>
-              Explore: Dive into the distinct realms of culture,
-              <br />
-              location, and vocation, experiencing their unique
-              <br />
-              facets.
-              <br />
+              Explore: Discover and experience the various domains of culture, place, and profession.
             </span>
             <br />
+            <br />
             <span>
-              Elevating the experience: Introducing a<br />
+              Elevating the experience: Introducing a
               Dynamic Point System for added excitement
               <br />
             </span>
             <br />
             <span>
-              It&apos;s Safe: Only verified profiles, authentic
-              <br />
-              individuals sharing genuine day-to-day routines.
+              It&apos;s Safe: Only verified profiles, authentic users sharing genuine day-to-day routines.
               <br />
             </span>
             <br />
@@ -65,7 +59,7 @@ function Why() {
             </span>
             <br />
             <span>
-              Timeline: Minimum 24 hours. It transcends a<br />
+              Timeline: Minimum 24 hours. It transcends a
               mere activity.
               <br />
             </span>
