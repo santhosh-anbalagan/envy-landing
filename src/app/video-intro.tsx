@@ -6,7 +6,7 @@ export function VideoIntro() {
   return (
     <section className="grid min-h-[30rem] lg:min-h-[46rem] px-2 lg:px-8 mb-10 sm:mb-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 max-w-max lg:max-w-8xl mx-auto items-center">
-        <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
+        <div className="col-span-1 mx-auto max-w-lg px-5">
           <Typography
             variant="h1"
             className="mb-4 font-graduate text-envy-green pt-5 lg:pt-0 text-center lg:text-left"
@@ -17,7 +17,7 @@ export function VideoIntro() {
           <Typography
             placeholder=""
             variant="paragraph"
-            className="mb-5 text-justify px-4 font-caveat text-3xl !text-gray-500 lg:px-0"
+            className="mb-5 text-justify  font-caveat text-3xl !text-gray-500 "
             color="black"
           >
             <span>
