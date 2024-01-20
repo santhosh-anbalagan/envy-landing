@@ -35,7 +35,7 @@ function Why() {
           <Typography
             placeholder=""
             variant="lead"
-            className="mb-5 px-4 text-justify text-3xl !text-gray-500 lg:px-0 font-caveat"
+            className="mb-5 px-4  text-3xl !text-gray-500 lg:px-0 font-caveat"
           >
             <span>
               Explore: Discover and experience the various domains of culture, place, and profession.
