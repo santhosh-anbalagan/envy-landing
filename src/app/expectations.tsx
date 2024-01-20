@@ -40,7 +40,7 @@ function Expectations() {
     },
     {
       title: "SWAP",
-      desc: "Choose to trade places and experiences with someone intrigued. Envision the contrast of a rustic farming routine to the pulsating energy of a cosmopolitan lifestyle.",
+      desc: "Choose to trade places and experiences with someone intrigued. Envision the contrast of a rustic farming routine to the pulsating intensitifed energy of a cosmopolitan lifestyle.",
       src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/Swap+-+first+15+sec.mp4"
     },
     // Add more image URLs as needed
@@ -88,7 +88,7 @@ function Expectations() {
                 <Typography
                   placeholder=""
                   color="gray"
-                  className="!text-gray-500  text-2xl font-caveat text-justify"
+                  className="!text-gray-500  text-2xl font-caveat "
                 >
                   {image.desc}
                 </Typography>
