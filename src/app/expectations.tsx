@@ -46,7 +46,7 @@ function Expectations() {
     // Add more image URLs as needed
   ];
   return (
-    <section className="grid min-h-[30rem] lg:min-h-[46rem] px-2 lg:px-8 mb-10 sm:mb-0">
+    <section className="grid min-h-[30rem] lg:min-h-[46rem] px-2 lg:px-8 mb-10 sm:mb-0 lg:pb-10">
       <Typography
         variant="h1"
         className="px-3 lg:px-0 mb-4 font-graduate text-envy-green my-12 lg:my-0 flex content-between flex-col-reverse justify-between items-center py-5 text-center lg:text-left"
@@ -57,10 +57,10 @@ function Expectations() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-max lg:max-w-7xl mx-auto items-center mb-5">
         {sampleImages.map((image, index) => (
           <div key={index}>
-            <Card placeholder="" className="shadow-none lg:shadow-lg lg:w-[20rem]">
+            <Card placeholder="" className="shadow-none lg:shadow-lg lg:w-[20rem] items-center">
               <CardHeader floated={false} placeholder="">
                 <video
-                className="object-cover w-full lg:object-fill rounded-lg min-h-[17rem] xsm:!max-h-[30rem] lg:min-h-[32rem] lg:w-[17rem]"
+                className="object-cover w-full lg:object-fill rounded-lg min-h-[17rem] xsm:!max-h-[30rem] lg:min-h-[30rem] lg:w-[16rem]"
                   controls
                   autoPlay
                   loop
