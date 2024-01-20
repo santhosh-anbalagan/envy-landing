@@ -57,10 +57,10 @@ function Expectations() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-max lg:max-w-7xl mx-auto items-center mb-5">
         {sampleImages.map((image, index) => (
           <div key={index}>
-            <Card placeholder="" className="shadow-none lg:shadow-lg">
+            <Card placeholder="" className="shadow-none lg:shadow-lg lg:w-[20rem]">
               <CardHeader floated={false} placeholder="">
                 <video
-                className="object-cover w-full lg:object-fill rounded-lg min-h-[17rem] xsm:!max-h-[30rem] lg:min-h-[43rem]"
+                className="object-cover w-full lg:object-fill rounded-lg min-h-[17rem] xsm:!max-h-[30rem] lg:min-h-[32rem] lg:w-[17rem]"
                   controls
                   autoPlay
                   loop
