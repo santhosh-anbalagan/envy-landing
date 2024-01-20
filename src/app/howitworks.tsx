@@ -10,7 +10,7 @@ function HowItWorks() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-48 max-w-[80vw] mx-auto items-center mb-10">
             <div className="px-5 overflow-hidden relative mx-auto mt-20 ">
               <div className=" w-full h-full inset-0" />
-              <video className="h-[40rem] w-full rounded-lg object-cover" controls autoPlay loop muted>
+              <video className="h-[40rem] w-full rounded-lg object-cover" controls autoPlay loop muted playsInline>
               <source
                 src="/video/en_fun.mp4"
                 type="video/mp4"

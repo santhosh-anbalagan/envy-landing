@@ -65,6 +65,7 @@ function Expectations() {
                   autoPlay
                   loop
                   muted
+                  playsInline
                 >
                   <source
                     src={image.src}
