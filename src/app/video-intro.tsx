@@ -30,7 +30,7 @@ export function VideoIntro() {
           </Typography>
         </div>
           <div className="justify-self-right mb-10 lg:m-10 overflow-hidden rounded-xl relative mx-auto max-w-6xl ">
-            <video className="h-[40rem] w-full rounded-lg object-cover" controls autoPlay loop muted>
+            <video className="h-[40rem] w-full rounded-lg object-cover" controls autoPlay loop muted preload="auto">
               <source
                 src="https://s3.eu-west-2.amazonaws.com/envy.public/media/video/2023-12-24_18_30_12_video.MP4"
                 type="video/mp4"

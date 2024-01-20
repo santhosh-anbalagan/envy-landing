@@ -4,7 +4,7 @@ import { Typography } from "@material-tailwind/react";
 
 function Why() {
   return (
-    <section className="grid !min-h-[50rem] px-8 bg-envy-green">
+    <section className="grid !min-h-[50rem] px-3 lg:px-8 bg-envy-green">
       <Typography
         variant="h1"
         className="font-graduate mb-1 place-self-center pt-20 lg:hidden text-white"
@@ -24,7 +24,7 @@ function Why() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0 text-envy-green">
+        <div className="col-span-1 mx-auto max-w-lg px-0 text-envy-green">
           <Typography
             variant="h1"
             className="mb-4 font-graduate text-white hidden lg:block"
@@ -35,7 +35,7 @@ function Why() {
           <Typography
             placeholder=""
             variant="lead"
-            className="mb-5 px-4  text-3xl !text-gray-500 lg:px-0 font-caveat"
+            className="mb-5 text-justify lg:text-left text-3xl !text-gray-500 px-0 font-caveat"
           >
             <span>
               Explore: Discover and experience the various domains of culture, place, and profession.
