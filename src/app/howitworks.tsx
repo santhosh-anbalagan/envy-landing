@@ -2,12 +2,11 @@
 
 import PictureCarousel from "@/components/picture-carousel";
 import { Typography } from "@material-tailwind/react";
-import Image from "next/image";
 
 
 function HowItWorks() {
   return (
-    <section className="grid  py-5 px-8 mt-10 lg:mt-0 !min-h-[20rem] bg-envy-green ">
+    <section className="grid  py-5 px-8 mt-0 !min-h-[20rem] bg-envy-green ">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-48 max-w-[80vw] mx-auto items-center mb-10">
         <div className="px-5 overflow-hidden relative mx-auto mt-20 ">
           <div className=" w-full h-full inset-0" />
