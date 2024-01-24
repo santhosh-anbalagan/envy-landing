@@ -16,7 +16,7 @@ export function VideoIntro() {
               <div className="w-full h-full px-5 flex  justify-center items-center backdrop-brightness-50"> <div className="col-span-1 mx-auto max-w-lg px-15">
                 <Typography
                   variant="h1"
-                  className="mb-4 font-graduate text-envy-green pt-5 lg:pt-0 text-center lg:text-left [text-shadow:_2px_2px_4px_var(--tw-shadow-color)] shadow-white"
+                  className="mb-4 font-graduate text-envy-green pt-5 lg:pt-0 text-center lg:text-left [text-shadow:_1px_1px_1px_var(--tw-shadow-color)] shadow-white"
                   placeholder=""
                 >
                   UNVEILING ENVY
