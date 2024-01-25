@@ -32,19 +32,19 @@ function Expectations() {
       title: "HOST",
       desc: "Privileged with an enviable lifestyle? Let others in on the excitement!",
       src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/Yoga+-+Host+Pref1.mp4",
-      mobsrc:"/image/what-1.jpg"
+      mobsrc:"/image/111.png"
     },
     {
       title: "LIVE",
       desc: "Jet-setting for a while with an empty abode? Curate a personalized lifestyle for someone while you're not around.",
       src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/pexels-c-technical-6686153+(Original).mp4",
-      mobsrc:"/image/what-2.png"
+      mobsrc:"/image/2.png"
     },
     {
       title: "SWAP",
       desc: "Choose to trade places and experiences with someone intrigued. Envision the contrast of a rustic farming routine to the pulsating energy of a cosmopolitan lifestyle.",
       src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/Swap+-+first+15+sec.mp4",
-      mobsrc:"/image/what-3.png"
+      mobsrc:"/image/33.png"
     },
     // Add more image URLs as needed
   ];
@@ -60,7 +60,39 @@ function Expectations() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 max-w-max lg:max-w-7xl mx-auto items-center mb-5">
         {sampleImages.map((image, index) => (
           <div key={index}>
-            <Card placeholder="" className="shadow-none lg:shadow-lg lg:w-[20rem] items-center">
+            {/* mobile  */}
+            
+            <Card placeholder="" className="shadow-none lg:shadow-lg lg:w-[20rem] items-center md:hidden">
+              <Image
+                src={image.mobsrc}
+                width={200}
+                height={200}
+                alt="team work"
+                className="object-cover w-full lg:object-fill rounded-lg "
+              />
+              <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
+              <CardBody placeholder="" className=" min-h-[18rem]">
+                <div className="mb-3 flex items-center justify-between ">
+                  <Typography
+                    variant="h3"
+                    className="font-graduate text-envy-green"
+                    placeholder=""
+                  >
+                    {image.title}
+                  </Typography>
+                  <span></span>
+                </div>
+                <Typography
+                  placeholder=""
+                  color="gray"
+                  className="!text-gray-500  text-2xl font-caveat "
+                >
+                  {image.desc}
+                </Typography>
+              </CardBody>
+            </Card>
+            {/* not mobile  */}
+            <Card placeholder="" className="shadow-none lg:shadow-lg lg:w-[20rem] items-center hidden md:flex">
               <CardHeader floated={false} placeholder="">
                 <video
                 className="object-cover w-full lg:object-fill rounded-lg min-h-[17rem] xsm:!max-h-[30rem] lg:min-h-[30rem] lg:w-[16rem]"
