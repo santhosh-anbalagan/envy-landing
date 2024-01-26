@@ -6,7 +6,7 @@ export function VideoIntro() {
   return (
 
     <section className="grid min-h-[30rem] lg:min-h-[46rem]  lg:px-8 mb-0 sm:mb-0">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 max-w-max lg:max-w-8xl mx-auto items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-52 max-w-max lg:max-w-8xl mx-auto items-center">
           <div className="col-span-1 mx-auto max-w-lg px-5">
             <Typography
               variant="h1"
