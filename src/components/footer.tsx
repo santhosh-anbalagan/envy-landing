@@ -6,7 +6,7 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="px-8 pt-12 bg-envy-green">
+    <footer className="px-8  bg-envy-green">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
 
@@ -20,10 +20,6 @@ export function Footer() {
             <a href="https://www.material-tailwind.com" target="_blank">
               Team Envy
             </a>{" "}
-            {/* by{" "}
-            <a href="https://www.creative-tim.com" target="_blank">
-              Creative Tim
-            </a> */}
           </Typography>
           <Typography
             color="white"
