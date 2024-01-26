@@ -32,19 +32,19 @@ function Expectations() {
       title: "HOST",
       desc: "Privileged with an enviable lifestyle? Let others in on the excitement!",
       src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/Yoga+-+Host+Pref1.mp4",
-      mobsrc:"/image/111.png"
+      mobsrc:"/image/what-1.png"
     },
     {
       title: "LIVE",
       desc: "Jet-setting for a while with an empty abode? Curate a personalized lifestyle for someone while you're not around.",
       src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/pexels-c-technical-6686153+(Original).mp4",
-      mobsrc:"/image/2.png"
+      mobsrc:"/image/what-2.png"
     },
     {
       title: "SWAP",
       desc: "Choose to trade places and experiences with someone intrigued. Envision the contrast of a rustic farming routine to the pulsating energy of a cosmopolitan lifestyle.",
       src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/Swap+-+first+15+sec.mp4",
-      mobsrc:"/image/33.png"
+      mobsrc:"/image/what-3.png"
     },
     // Add more image URLs as needed
   ];
