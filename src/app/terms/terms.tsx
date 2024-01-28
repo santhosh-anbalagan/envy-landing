@@ -86,8 +86,7 @@ function Terms() {
                   8.1 These Terms are governed by and construed in accordance with the laws of the United Kingdom.</Typography>
                 <Typography placeholder="" variant="h3" className="mt-5"><Element name="9" className="element">9. Contact Information</Element></Typography>
                 <Typography placeholder="" className="mt-5" variant="paragraph">
-                  9.1 If you have any questions about these Terms, please contact us at <span className="text-blue-500 cursor-pointer">[contact@envyapp.com].</span> </Typography>
-
+                  9.1 If you have any questions about these Terms, please contact us at <span className="text-blue-500 cursor-pointer">[contact@envy.fun].</span> </Typography>
               </CardBody>
             </Card>
           </div>

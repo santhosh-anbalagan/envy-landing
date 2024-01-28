@@ -194,8 +194,8 @@ function Privacy() {
                 <Typography placeholder="" className="mt-5" variant="paragraph">
                   If you have any questions about this Privacy Policy, You can contact us:</Typography>
                 <ol className="list-disc mt-5 pl-5">
-                  <li>By email: envy7.org@gmail.com</li>
-                  <li>By visiting this page on our website:<span className="text-blue-500 cursor-pointer"> http://www.envy.fun</span></li>
+                  <li>By email: contact@envy.fun</li>
+                  <li>By visiting this page on our website:<span className="text-blue-500 cursor-pointer"> https://www.envy.fun</span></li>
                 </ol>
 
 
