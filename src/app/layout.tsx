@@ -12,7 +12,7 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Envy",
   description:
-    "Sharing a lifestyle is not just living life, it’s about building life together.",
+    "A unique platform to experience lifestyles!",
 };
 
 export default function RootLayout({
