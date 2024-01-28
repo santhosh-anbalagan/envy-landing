@@ -124,7 +124,7 @@ function Hero() {
           <Image
             width={470}
             height={576}
-            src="/image/1-3.svg"
+            src="/image/main-1.svg"
             alt="team work"
             className="cursor-pointer col-span-1 my-20 h-full max-h-[30rem] -translate-y-32 md:max-h-[36rem] lg:my-0 lg:ml-auto lg:max-h-[40rem] lg:translate-y-0"
           />

@@ -22,9 +22,9 @@ export function VideoIntro() {
               color="black"
             >
               <span>
-                Countless people navigate distinct lifestyles,
+                Countless people navigate distinct lifestyles.
                 Have you ever imagined the excitement of
-                defining into those unique worlds? Our app
+                delving into those unique worlds? Our app
                 offers you the chance to step into the shoes of
                 a lifestyle you`ve always envied.
               </span>

@@ -42,7 +42,7 @@ function Why() {
             </p >
             <p className="pb-5">
               Elevating the experience: Introducing a
-              Dynamic Point System for added excitement .
+              dynamic point system for added excitement.
             </p>
             <p className="pb-5">
               It&apos;s Safe: Only verified profiles, authentic users sharing genuine day-to-day routines.
@@ -51,9 +51,7 @@ function Why() {
               Benefits: Earn money as a host.
             </p>
             <p className="pb-5">
-              Timeline: Minimum 24 hours. It transcends a
-              mere activity.
-
+              Timeline: It transcends a mere activity. The duration of experience can vary based on the host.
             </p>
           </div>
         </div>
@@ -98,7 +96,7 @@ function Why() {
                 <br />
                 <span>
                   Elevating the experience: Introducing a
-                  Dynamic Point System for added excitement
+                  dynamic point system for added excitement.
                   <br />
                 </span>
                 <br />
@@ -113,8 +111,7 @@ function Why() {
                 </span>
                 <br />
                 <span>
-                  Timeline: Minimum 24 hours. It transcends a
-                  mere activity.
+                  Timeline: It transcends a mere activity. The duration of experience can vary based on the host.
                   <br />
                 </span>
               </Typography>
