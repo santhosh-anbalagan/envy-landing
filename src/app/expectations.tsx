@@ -42,7 +42,7 @@ function Expectations() {
     },
     {
       title: "SWAP",
-      desc: "Choose to trade places and experiences with someone intrigued. Envision the contrast of a rustic farming routine to the pulsating energy of a cosmopolitan lifestyle.",
+      desc: "Choose to trade places and experiences with someone intriguing. Envision the contrast of a rustic farming routine to the pulsating energy of a cosmopolitan lifestyle.",
       src: "https://s3.eu-west-2.amazonaws.com/envy.public/media/video/Swap+-+first+15+sec.mp4",
       mobsrc:"/image/what-3.png"
     },
