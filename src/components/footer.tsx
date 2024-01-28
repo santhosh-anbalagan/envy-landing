@@ -32,7 +32,7 @@ export function Footer() {
           </div>
 
           <div className="flex gap-2">
-            <Tooltip content="Follow us @ envy.lifestyle_official">
+            <Tooltip content="follow us @envy.lifestyle_official">
               <IconButton placeholder="" variant="text" color="white">
                 <a target="_blank" href="https://www.instagram.com/envy.lifestyle_official/?igsh=em85MjRmYWRtNGh0"><i className="fa-brands fa-instagram text-2xl not-italic opacity-75"></i></a>
               </IconButton>
@@ -71,7 +71,7 @@ export function Footer() {
           </div>
 
           <div className="flex gap-2 justify-center">
-            <Tooltip content="Follow us @ envy.lifestyle_official">
+            <Tooltip content="follow us @envy.lifestyle_official">
               <IconButton placeholder="" variant="text" color="white">
                 <a target="_blank" href="https://www.instagram.com/envy.lifestyle_official/?igsh=em85MjRmYWRtNGh0"><i className="fa-brands fa-instagram text-2xl not-italic opacity-75"></i></a>
               </IconButton>
